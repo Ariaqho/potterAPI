@@ -1,23 +1,23 @@
 import {useEffect, useState} from 'react';
 
-function Spells_list(){
+function SpellsList(){
    const url = 'https://fedeperin-harry-potter-api.herokuapp.com/hechizos'
 const [todos, setTodos] = useState()
-const api_call = async () => {
+const apiCall = async () => {
     const response = await fetch(url)
     console.log(response.status)
     const responseJSON = await response.json()
     console.log(responseJSON)
 }
 useEffect(() => {
-    api_call()
+    apiCall()
 }, [])
 return(
     console.log('Hi')
 );
 }
 
-export default Spells_list;
+export default SpellsList;
 
 
 

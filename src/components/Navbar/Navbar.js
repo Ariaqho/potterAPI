@@ -2,7 +2,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
 import { Nav, Navbar } from 'react-bootstrap';
 
-function Navbar_component() {
+function NavbarComponent() {
   return (
     <Navbar bg='dark' variant = 'dark' sticky='top'>
         <Navbar.Brand>
@@ -18,4 +18,4 @@ function Navbar_component() {
   );
 }
 
-export default Navbar_component;
+export default NavbarComponent;

@@ -1,12 +1,12 @@
 import './App.css';
-import Navbar_component from './components/Navbar/Navbar';
-import Spells_list from './components/Spells/Spells';
+import NavbarComponent from './components/Navbar/Navbar';
+import SpellsList from './components/Spells/Spells';
 
 function App() {
-  Spells_list()
+  SpellsList()
   return (
     <div className="App">
-      <Navbar_component />
+      <NavbarComponent />
     </div>
     
   );
