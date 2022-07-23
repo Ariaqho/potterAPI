@@ -4,6 +4,7 @@ import Characters from './components/Characters/Characters';
 import SpellsList from './components/Spells/Spells';
 
 //Comentario de prueba 
+//Nuevo comentario de prueba
 
 function App() {
   SpellsList()
