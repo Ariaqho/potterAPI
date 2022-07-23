@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # potterAPI
 Proyecto final del curso de frontend de asociación de software libre Chile y USACH
 =======
@@ -73,3 +74,7 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 >>>>>>> 2346256 (Initialize project using Create React App)
+=======
+# potterAPI
+Proyecto final del curso de frontend de asociación de software libre Chile y USACH
+>>>>>>> b1007b1 (fix readme)
