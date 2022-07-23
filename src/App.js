@@ -1,12 +1,14 @@
 import './App.css';
-import Navbar_component from './components/Navbar/Navbar';
+import NavbarComponent from './components/Navbar/Navbar';
+import Characters from './components/Characters/Characters';
 import Listado_hechizos from './components/Hechizos/Hechizos';
 
 function App() {
   Listado_hechizos()
   return (
     <div className="App">
-      <Navbar_component />
+      <NavbarComponent />
+      <Characters characters={Characters} />   
     </div>
     
   );
