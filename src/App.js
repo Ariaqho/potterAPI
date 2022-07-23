@@ -1,9 +1,9 @@
 import './App.css';
 import Navbar_component from './components/Navbar/Navbar';
-import Listado_hechizos from './components/Hechizos/Hechizos';
+import Spells_list from './components/Spells/Spells';
 
 function App() {
-  Listado_hechizos()
+  Spells_list()
   return (
     <div className="App">
       <Navbar_component />
