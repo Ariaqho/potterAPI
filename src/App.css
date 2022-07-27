@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+.books {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  margin: 10px;
+}
