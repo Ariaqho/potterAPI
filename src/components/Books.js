@@ -18,10 +18,10 @@ const Books = () => {
   }, [])
   return (
     books.length > 0 ? 
-    <div className='books'>
+    <div className='container-books'>
         {
             books.map((item, index) => (
-                <div key={index} className="books card">
+                <div key={index} className="card books">
                     <div className="card-body">
                         <h5 className="card-title">{item.libro}</h5>
                         <h6 className="card-subtitle mb-2 text-muted">Fecha de lanzamiento: {item.fecha_de_lanzamiento}</h6>

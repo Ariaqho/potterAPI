@@ -37,9 +37,14 @@
   }
 }
 
-.books {
+.container-books {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: column;
   justify-content: space-around;
+}
+
+.books {
   margin: 10px;
+  width: 100%;
+
 }
