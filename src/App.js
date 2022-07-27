@@ -6,11 +6,12 @@ import SpellsList from './components/Spells/Spells';
 //Comentario de prueba 
 
 function App() {
-  SpellsList()
+  //SpellsList()
   return (
     <div className="App">
       <NavbarComponent />
-      <Characters characters={Characters} />  
+      <SpellsList />  
+      <Characters />
     </div>
     
   );
