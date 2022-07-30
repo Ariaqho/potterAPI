@@ -1,0 +1,15 @@
+.container-books {
+    margin: 20px;
+    display: flex;
+    flex-flow: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    }
+
+.book__child{
+    margin: 10px;
+    }
+
+.books {
+    margin: 20px;
+    }
