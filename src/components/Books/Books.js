@@ -24,7 +24,7 @@ const Books = () => {
               <div key={index} className="card mb-3 book__child" style={{width: "45%"}}>
                 <div className="row g-0">
                   <div className="col-md-4">
-                    <img src={require(`../media/img/hp${index}.jpeg`)} className="img-fluid rounded-start" alt={item.libro}/>
+                    <img src={require(`../../media/img/hp${index}.jpeg`)} className="img-fluid rounded-start" alt={item.libro}/>
                   </div>
                   <div className="col-md-8">
                     <div className="card-body">
