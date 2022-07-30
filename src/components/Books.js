@@ -21,13 +21,20 @@ const Books = () => {
     <div className='container-books'>
         {
             books.map((item, index) => (
-                <div key={index} className="card books">
+              <div key={index} className="card mb-3 book__child" style={{width: "45%"}}>
+                <div className="row g-0">
+                  <div className="col-md-4">
+                    <img src={require(`../media/img/hp${index}.jpeg`)} className="img-fluid rounded-start" alt={item.libro}/>
+                  </div>
+                  <div className="col-md-8">
                     <div className="card-body">
-                        <h5 className="card-title">{item.libro}</h5>
-                        <h6 className="card-subtitle mb-2 text-muted">Fecha de lanzamiento: {item.fecha_de_lanzamiento}</h6>
-                        <p className="card-text">{item.descripcion}</p>
+                      <h5 className="card-title">{item.libro}</h5>
+                      <p className="card-text">{item.descripcion}</p>
+                      <p className="card-text"><small className="text-muted">Fecha de lanzamiento: {item.fecha_de_lanzamiento}</small></p>
                     </div>
+                  </div>
                 </div>
+             </div>
             ))
         }
 
