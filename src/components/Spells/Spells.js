@@ -2,12 +2,13 @@ import {useEffect, useState} from 'react';
 
 const SpellsList = () => {
    const url = 'https://harry-potter-api-production.up.railway.app/hechizos'
-const [spells, setSpells] = useState()
+const [spells, setSpells] = useState([])
 const apiCall = async () => {
     try {
     const response = await fetch(url)
     const responseJSON = await response.json()
     setSpells(responseJSON)
+    console.log(responseJSON)
 }catch(error){
     console.log(error)
 }

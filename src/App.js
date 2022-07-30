@@ -5,18 +5,10 @@ import Characters from './components/Characters/Characters';
 import SpellsList from './components/Spells/Spells';
 import Books from './components/Books'
 import Home from './components/Home/Home'
-
-//Comentario de prueba 
+import Footer from './components/Footer/Footer';
 
 function App() {
-  //SpellsList()
   return (
-    // <div className="App">
-    //   <NavbarComponent />
-    //   <SpellsList />  
-    //   <Characters />
-    //   <Books />
-    // </div>
 
     <BrowserRouter>
       <Routes>
@@ -27,6 +19,7 @@ function App() {
           <Route path="libros" element={<Books />} />
         </Route>
       </Routes>
+      <Footer />
     </BrowserRouter>
 
 
