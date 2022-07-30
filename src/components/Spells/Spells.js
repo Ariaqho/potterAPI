@@ -16,6 +16,7 @@ useEffect(() => {
     apiCall()
 },[])
 return (
+    spells.length > 0 ? 
     <div className='container-spellsList'>
         {
             spells.map((item, index) => (
@@ -28,7 +29,7 @@ return (
             ))
         }
 
-    </div>
+    </div> : null
   )
 }
 export default SpellsList;
