@@ -1,4 +1,5 @@
 .home {
+    font-family: 'MedievalSharp', cursive;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -17,4 +18,19 @@
 
 .home__img {
     width: 50%;
+    }
+
+.container-grageas {
+    border: 4px solid black;
+    margin: 5rem;
+    border-radius: 5px;
+    font-family: 'MedievalSharp', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    &__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
     }

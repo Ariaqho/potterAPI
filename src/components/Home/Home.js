@@ -11,11 +11,11 @@ const Home = () => {
         <img className='home__img' alt="logo-hogwarts" src={houseLogo}/> 
       </div>
         
-      <div className='container'>
-        <div className='grageas__wrapper'>
+      <div className='container-grageas'>
+        <div className='container-grageas__wrapper'>
           <h1>¿Hechizo?¿Libro?¿Personaje?</h1>
-          <h3 className='grageas__heading'>Toma una gragea y descúbrelo</h3>
-          <insertar icono con link></insertar>
+          <h3 className='grageas__text'>Toma una gragea y descúbrelo</h3>
+          {/* <insertar icono con link></insertar> */}
           </div>
         </div>
         </div>

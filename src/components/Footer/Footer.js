@@ -5,7 +5,7 @@ const Footer = () => {
     <footer>
         <div className="footer__col1">
           <h2>ICONO</h2>
-          <p>Proyecto final curso frontend asociación software libre Chile - USACH</p>
+          <p>Proyecto final curso frontend asociación software libre Chile - USACH <br/>proyecto creado por:</p>
           </div>
           <div className="footer__col2">
             <h4>@Faviola</h4>
