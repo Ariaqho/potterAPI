@@ -1,7 +1,8 @@
-
+@import url('https://fonts.googleapis.com/css2?family=MedievalSharp&display=swap');
 @import "./home";
 @import "./characters";
 @import "./books";
+@import "footer";
 
 .App {
     text-align: center;
@@ -42,6 +43,7 @@
     }
   }
   
-  
-  
-  
+
+  .grageas__wrapper{
+    font-family: 'MedievalSharp', cursive;
+  }
