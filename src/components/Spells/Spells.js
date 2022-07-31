@@ -1,4 +1,5 @@
 import {useEffect, useState} from 'react';
+// import '../src/scss/_spells.scss';
 
 const SpellsList = () => {
    const url = 'https://harry-potter-api-production.up.railway.app/hechizos'
