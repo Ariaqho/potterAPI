@@ -37,14 +37,46 @@
   }
 }
 
-.container-books {
+.home {
   display: flex;
-  flex-flow: column;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.home__title {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.home__logo {
+  display: flex;
+  justify-content: center;
+}
+
+.home__img {
+  width: 50%;
+}
+
+.character__child {
+  display: flex;
   justify-content: space-around;
 }
 
-.books {
+.container-books {
+  margin: 20px;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.book__child{
   margin: 10px;
-  width: 100%;
+}
+
+.books {
+  margin: 20px;
 
 }
+
