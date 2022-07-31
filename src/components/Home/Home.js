@@ -10,7 +10,15 @@ const Home = () => {
       <div className='home__logo'>
         <img className='home__img' alt="logo-hogwarts" src={houseLogo}/> 
       </div>
-    </div>
+        
+      <div className='container'>
+        <div className='grageas__wrapper'>
+          <h1>¿Hechizo?¿Libro?¿Personaje?</h1>
+          <h3 className='grageas__heading'>Toma una gragea y descúbrelo</h3>
+          <insertar icono con link></insertar>
+          </div>
+        </div>
+        </div>
 
   )
 }
