@@ -1,5 +1,6 @@
 import React from 'react'
 import houseLogo from '../../media/img/Logo-Hogwarts-3.png'
+import grageaimg from '../../media/img/gragea-img.png'
 
 const Home = () => {
   return (
@@ -13,9 +14,8 @@ const Home = () => {
         
       <div className='container-grageas'>
         <div className='container-grageas__wrapper'>
-          <h1>¿Hechizo?¿Libro?¿Personaje?</h1>
-          <h3 className='grageas__text'>Toma una gragea y descúbrelo</h3>
-          {/* <insertar icono con link></insertar> */}
+          <h1>¿Te animas a probar una gragea de todos los sabores?</h1>
+          <a className='link' href='mailto:faviola4@gmail.com' target='_blank' rel='noreferrer'><img className='grageaimg' alt="gragea-bertie-botts" src={grageaimg} width='150rem' heigth='150rem'/></a>
           </div>
         </div>
         </div>

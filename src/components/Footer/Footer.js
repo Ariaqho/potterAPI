@@ -1,7 +1,7 @@
 import React from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faHatWizard, faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import { faGithub, faLinkedin, fa } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
   return (
@@ -10,7 +10,7 @@ const Footer = () => {
         <div className='hat-icon-footer'><FontAwesomeIcon icon={faHatWizard}></FontAwesomeIcon></div>
         <div className='description-footer'>
           <h2>Potter</h2>
-          <p>Proyecto final curso frontend asociación software libre Chile - USACH <br />proyecto creado por:</p>
+          <p>Proyecto final del curso de frontend asociación software libre Chile - USACH <br />proyecto creado por:</p>
         </div>
       </div>
       <div className="footer__col2">

@@ -1,5 +1,4 @@
 import {useEffect, useState} from 'react';
-// import '../src/scss/_spells.scss';
 
 const SpellsList = () => {
    const url = 'https://harry-potter-api-production.up.railway.app/hechizos'
@@ -23,9 +22,9 @@ return (
         {
             spells.map((item, index) => (
                 <div key={index} className="card spells">
-                    <div className="card-body">
-                        <h5 className="card-title">{item.hechizo}</h5>
-                        <p className="card-text">{item.uso}</p>
+                    <div className="card-body-spells">
+                        <h5 className="card-title-spells">{item.hechizo}</h5>
+                        <p className="card-text-spells">{item.uso}</p>
                     </div>
                 </div>
             ))
