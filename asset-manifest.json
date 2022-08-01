@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/potterAPI/static/css/main.17d89d6e.css",
-    "main.js": "/potterAPI/static/js/main.bc2bc25e.js",
+    "main.js": "/potterAPI/static/js/main.790b91ab.js",
     "static/js/787.549c2582.chunk.js": "/potterAPI/static/js/787.549c2582.chunk.js",
     "static/media/Logo-Hogwarts-3.png": "/potterAPI/static/media/Logo-Hogwarts-3.67547fd0f564fbd4bf85.png",
     "static/media/hp0.jpeg": "/potterAPI/static/media/hp0.9a075e28bf6699e79b2c.jpeg",
@@ -12,13 +12,14 @@
     "static/media/hp4.jpeg": "/potterAPI/static/media/hp4.ab32c549667839bc7b02.jpeg",
     "static/media/hp6.jpeg": "/potterAPI/static/media/hp6.d7fe7b4014bef2581843.jpeg",
     "static/media/hp5.jpeg": "/potterAPI/static/media/hp5.935bb6d030d6db923128.jpeg",
+    "static/media/gragea-img.png": "/potterAPI/static/media/gragea-img.bb8a928a79b20b352ee5.png",
     "index.html": "/potterAPI/index.html",
     "main.17d89d6e.css.map": "/potterAPI/static/css/main.17d89d6e.css.map",
-    "main.bc2bc25e.js.map": "/potterAPI/static/js/main.bc2bc25e.js.map",
+    "main.790b91ab.js.map": "/potterAPI/static/js/main.790b91ab.js.map",
     "787.549c2582.chunk.js.map": "/potterAPI/static/js/787.549c2582.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17d89d6e.css",
-    "static/js/main.bc2bc25e.js"
+    "static/js/main.790b91ab.js"
   ]
 }
