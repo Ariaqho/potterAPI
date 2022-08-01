@@ -15,7 +15,7 @@ const Home = () => {
       <div className='container-grageas'>
         <div className='container-grageas__wrapper'>
           <h1>¿Te animas a probar una gragea de todos los sabores?</h1>
-          <a className='link' href='mailto:faviola4@gmail.com' target='_blank' rel='noreferrer'><img className='grageaimg' alt="gragea-bertie-botts" src={grageaimg} width='150rem' heigth='150rem'/></a>
+          <a className='link' href='mailto:faviola4@gmail.com' target='_blank' rel='noreferrer'><img className='img-fluid' alt="gragea-bertie-botts" src={grageaimg} width='150rem' heigth='150rem'/></a>
           </div>
         </div>
         </div>
