@@ -27,10 +27,10 @@ const Books = () => {
                     <img src={require(`../../media/img/hp${index}.jpeg`)} className="img-fluid rounded-start" alt={item.libro}/>
                   </div>
                   <div className="col-md-8">
-                    <div className="card-body">
-                      <h5 className="card-title">{item.libro}</h5>
-                      <p className="card-text">{item.descripcion}</p>
-                      <p className="card-text"><small className="text-muted">Fecha de lanzamiento: {item.fecha_de_lanzamiento}</small></p>
+                    <div className="card-body-books">
+                      <h5 className="card-title-books">{item.libro}</h5>
+                      <p className="card-text-books-1">{item.descripcion}</p>
+                      <p className="card-text-books-2"><small className="text-muted">Fecha de lanzamiento: {item.fecha_de_lanzamiento}</small></p>
                     </div>
                   </div>
                 </div>

@@ -1,22 +1,38 @@
 import {useEffect, useState} from 'react';
 
-function SpellsList(){
-   const url = 'https://fedeperin-harry-potter-api.herokuapp.com/hechizos'
-const [todos, setTodos] = useState()
+const SpellsList = () => {
+   const url = 'https://harry-potter-api-production.up.railway.app/hechizos'
+const [spells, setSpells] = useState([])
 const apiCall = async () => {
+    try {
     const response = await fetch(url)
-    console.log(response.status)
     const responseJSON = await response.json()
+    setSpells(responseJSON)
     console.log(responseJSON)
+}catch(error){
+    console.log(error)
+}
 }
 useEffect(() => {
     apiCall()
-}, [])
-return(
-    console.log('Hi')
-);
-}
+},[])
+return (
+    spells.length > 0 ? 
+    <div className='container-spellsList'>
+        {
+            spells.map((item, index) => (
+                <div key={index} className="card spells">
+                    <div className="card-body-spells">
+                        <h5 className="card-title-spells">{item.hechizo}</h5>
+                        <p className="card-text-spells">{item.uso}</p>
+                    </div>
+                </div>
+            ))
+        }
 
+    </div> : null
+  )
+}
 export default SpellsList;
 
 

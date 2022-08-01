@@ -24,9 +24,9 @@ const Characters = () => {
                 <div key={index} className="col m-3 character__child">
                     <div className='card shadow-sm bg-body rounded' style={{width: "300px"}}>
                         <img className='card-img-top' style={{width: "300px", height: "350px"}} src={item.imagen} atl={item.personaje}/>
-                        <div className='card-body'>
-                            <h5 className='card-title'>{item.personaje}</h5>
-                            <p className='card-text'>{item.casaDeHogwarts}</p>
+                        <div className='card-body-characters'>
+                            <h5 className='card-title-characters'>{item.personaje}</h5>
+                            <p className='card-text-characters'>{item.casaDeHogwarts}</p>
                         </div>
                     </div>
                 </div>
