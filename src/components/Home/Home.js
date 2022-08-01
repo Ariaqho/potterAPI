@@ -1,6 +1,6 @@
 import React from 'react'
 import houseLogo from '../../media/img/Logo-Hogwarts-3.png'
-import grageaimg from '../../media/img/gragea-img.png'
+// import grageaimg from '../../media/img/gragea-img.png'
 
 const Home = () => {
   return (
