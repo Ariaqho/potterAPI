@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Ariaqho/potterAPI.git/static/css/main.17d89d6e.css",
-    "main.js": "/Ariaqho/potterAPI.git/static/js/main.b02e3b88.js",
+    "main.js": "/Ariaqho/potterAPI.git/static/js/main.e9ab3f56.js",
     "static/js/787.549c2582.chunk.js": "/Ariaqho/potterAPI.git/static/js/787.549c2582.chunk.js",
     "static/media/Logo-Hogwarts-3.png": "/Ariaqho/potterAPI.git/static/media/Logo-Hogwarts-3.67547fd0f564fbd4bf85.png",
     "static/media/hp0.jpeg": "/Ariaqho/potterAPI.git/static/media/hp0.9a075e28bf6699e79b2c.jpeg",
@@ -12,14 +12,13 @@
     "static/media/hp4.jpeg": "/Ariaqho/potterAPI.git/static/media/hp4.ab32c549667839bc7b02.jpeg",
     "static/media/hp6.jpeg": "/Ariaqho/potterAPI.git/static/media/hp6.d7fe7b4014bef2581843.jpeg",
     "static/media/hp5.jpeg": "/Ariaqho/potterAPI.git/static/media/hp5.935bb6d030d6db923128.jpeg",
-    "static/media/gragea-img.png": "/Ariaqho/potterAPI.git/static/media/gragea-img.bb8a928a79b20b352ee5.png",
     "index.html": "/Ariaqho/potterAPI.git/index.html",
     "main.17d89d6e.css.map": "/Ariaqho/potterAPI.git/static/css/main.17d89d6e.css.map",
-    "main.b02e3b88.js.map": "/Ariaqho/potterAPI.git/static/js/main.b02e3b88.js.map",
+    "main.e9ab3f56.js.map": "/Ariaqho/potterAPI.git/static/js/main.e9ab3f56.js.map",
     "787.549c2582.chunk.js.map": "/Ariaqho/potterAPI.git/static/js/787.549c2582.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.17d89d6e.css",
-    "static/js/main.b02e3b88.js"
+    "static/js/main.e9ab3f56.js"
   ]
 }
